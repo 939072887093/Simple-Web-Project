@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies World</title>
+    <link rel="stylesheet" href="D:\web technology-jspiders/mdb/css/bootstrap.css">
+    <link rel="stylesheet" href="D:\web technology-jspiders/mdb/css/mdb.css">
+    <script src="D:\web technology-jspiders/mdb/js/bootstrap.js"></script>
+    <script src="D:\web technology-jspiders/mdb/js/mdb.js"></script>
+    <script src="D:\web technology-jspiders/mdb/js/jquery.js"></script>
+    <script src="D:\web technology-jspiders/mdb/js/popper.js"></script>
+    <style>
+       footer
+       {
+        height: 100px;
+       }
+        #wrapper
+        {
+           padding: 10px;
+           background: url("../images/1.jpg" ) 0px 0px no-repeat;
+           background-size: cover;
+           color:whitesmoke;
+        }
+        #wrapper>#p1
+        {
+            margin-top: 100px;  
+            margin-bottom: 100px;
+            margin-left: 20px;  
+            width: 50%;
+            height: 50%;
+        }
+      .pg img
+       {
+        border-radius: 100%;
+       }
+       button
+       {
+            border-radius: 10px;
+       }
+       .my-class
+       {
+        padding: auto;
+        justify-content: space-between
+       }
+       .my-class>.m1>img
+       {
+        border-radius: 20px;
+        
+       }
+      
+     .m1 #target 
+      {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        padding: 15px;
+        top:0;
+        left:0;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        flex-direction: column;
+        background: rgba(222, 218, 218, 0);
+        opacity: 0;
+        transition: opacity 1s;
+     }
+     .m1 #target:hover
+     {
+        opacity: 1;
+     }
+     .m1 #target p{
+        font-size: 16px;
+     }
+        </style>
+</head>
+<body>
+    <!-- nav bar -->
+    <nav class="navbar bg-dark navbar-dark navbar-expand-sm">
+		<div class="container-fluid">
+			<a href="" class="navbar-brand" style="color: greenyellow;"><b>Movies World</b></a>
+
+			<button class="navbar-toggler" data-target="#links" data-toggle="collapse">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="links">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a href="#" class="nav-link">Home</a>
+					</li>
+					<li class="nav-item">
+						<a href="movies.html" class="nav-link">Movies</a>
+					</li>
+					<li class="nav-item">
+						<a href="series.html" class="nav-link">Series</a>
+					</li>
+					<li class="nav-item">
+						<a href="popular.html" class="nav-link">polular</a>
+					</li>
+				</ul>
+                <div class="pg">
+                    <img src="..//images/final gaya  pic.jpeg" width="30px" height="30px">
+                </div>
+                <select class="bg-dark ml-2 text-light border-0"><option value="">profile</option>  
+                    <option value="">Edit</option> 
+                    <option value="">Logout</option> 
+                </select>
+                </div>
+			</div>
+           
+	</nav>
+    <div id="wrapper" ><marquee scrollamount="20" class="bg-danger m-2" ><h2 class="text-white">welcome to Movies Manza</h2></marquee>
+        <p id="p1"><b>In a dystopian future, where technology reigns supreme, a reluctant hero embarks on a quest to uncover a hidden truth. As ancient prophecies unfold, the line between good and evil blurs in a world where alliances shift like shadows. Spectacular visuals and intense action paint a vivid canvas, while a haunting score underscores the emotional journey. Brace yourself for a cinematic experience that transcends reality. <br><br><button class="btn-success">watch</button>
+            <hr class="bg-light"></b></p>      
+       
+        <h1 class="bg-dark d-inline">
+            New Releases
+        </h1><br>
+            <div class="row my-class mt-2">
+                <div class="col-sm-6 col-md-4 col-lg-2 m1">
+                <img src="../images/jailer.jpg" width="100%" height="100%">
+                <div  id="target">
+                    <p class="text-white">Immerse yourself in the gripping narrative and stunning visuals, as the characters navigate a labyrinth of suspense and emotion. Let the movie's artistry and storytelling transport you to a world where every frame is a captivating piece of cinema.. </p>
+                </div>
+                </div>
+                <div class=" col-sm-6 col-lg-2 col-md-4 m1">
+                    <img src="../images/tr.jpg" width="100%" height="100%">
+                    <div  id="target">
+                        <p class="text-white">Immerse yourself in the gripping narrative and stunning visuals, as the characters navigate a labyrinth of suspense and emotion. Let the movie's artistry and storytelling transport you to a world where every frame is a captivating piece of cinema. </p>
+                    </div>
+                </div>
+                <div class=" col-sm-6 col-lg-2 col-md-4 m1 mt-sm-2">
+                    <img src="../images/takkR.jpg" width="100%" height="100%">
+                    <div  id="target">
+                        <p class="text-white">Immerse yourself in the gripping narrative and stunning visuals, as the characters navigate a labyrinth of suspense and emotion. Let the movie's artistry and storytelling transport you to a world where every frame is a captivating piece of cinema. </p>
+                    </div>
+                </div>
+                <div class=" col-sm-6 col-lg-2 col-md-4 m1 mt-sm-2">
+                    <img src="../images/vee.jpg" width="100%" height="100%">
+                    <div  id="target">
+                        <p class="text-white">Immerse yourself in the gripping narrative and stunning visuals, as the characters navigate a labyrinth of suspense and emotion. Let the movie's artistry and storytelling transport you to a world where every frame is a captivating piece of cinema. </p>
+                    </div>
+                </div>
+                <div class=" col-sm-6 col-lg-2 col-md-4 m1 mt-sm-2">
+                    <img src="../images/p2.jpg" width="100%" height="100%">
+                    <div  id="target">
+                        <p class="text-white">Immerse yourself in the gripping narrative and stunning visuals, as the characters navigate a labyrinth of suspense and emotion. Let the movie's artistry and storytelling transport you to a world where every frame is a captivating piece of cinema. </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-2 col-md-4 m1 mt-sm-2">
+                    <img src="../images/fas.jpeg" width="100%" height="100%">
+                    <div  id="target">
+                        <p class="text-white">Immerse yourself in the gripping narrative and stunning visuals, as the characters navigate a labyrinth of suspense and emotion. Let the movie's artistry and storytelling transport you to a world where every frame is a captivating piece of cinema.</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <hr class="bg-light">
+            <h1 class="bg-dark d-inline text-capitalize">upcoming movies</h1><br>
+            <div class="row my-class mt-2">
+                <div class="col-sm-6 col-md-4 col-lg-2 m1">
+                <img src="../images/jailer1.jpg" width="100%" height="110%">
+                <div  id="target">
+                    <p class="text-white">Immerse yourself in the gripping narrative and stunning visuals, as the characters navigate a labyrinth of suspense and emotion. Let the movie's artistry and storytelling transport you to a world where every frame is a captivating piece of cinema. </p>
+                </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2 m1">
+                    <img src="../images/adi.jpg" width="100%" height="110%">
+                    <div  id="target">
+                        <p class="text-white">Immerse yourself in the gripping narrative and stunning visuals, as the characters navigate a labyrinth of suspense and emotion. Let the movie's artistry and storytelling transport you to a world where every frame is a captivating piece of cinema.</p>
+                    </div>
+                </div>
+                <div class=" col-sm-6 col-lg-2 col-md-4 m1 mt-sm-2">
+                    <img src="../images/omg.jpg" width="100%" height="110%">
+                    <div  id="target">
+                        <p class="text-dark">Immerse yourself in the gripping narrative and stunning visuals, as the characters navigate a labyrinth of suspense and emotion. Let the movie's artistry and storytelling transport you to a world where every frame is a captivating piece of cinema. </p>
+                    </div>
+                </div>
+                <div class=" col-sm-6 col-lg-2 col-md-4 m1 mt-sm-2">
+                    <img src="../images/banchan.jpg" width="100%" height="110%">
+                    <div  id="target">
+                        <p class="text-dark text-center">Immerse yourself in the gripping narrative and stunning visuals, as the characters navigate a labyrinth of suspense and emotion. Let the movie's artistry and storytelling transport you to a world where every frame is a captivating piece of cinema.</p> </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-2 col-md-4 m1 mt-sm-2">
+                    <img src="../images/asteroid-city-banner-1.jpg" width="100%" height="110%">
+                    <div  id="target">
+                        <p class="text-white text-center">Immerse yourself in the gripping narrative and stunning visuals, as the characters navigate a labyrinth of suspense and emotion. Let the movie's artistry and storytelling transport you to a world where every frame is a captivating piece of cinema. </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-2 col-md-4 m1 mt-sm-2">
+                    <img src="../images/pushpa-2.jpeg" width="100%" height="110%">
+                    <div  id="target">
+                        <p class="text-white text-center">Immerse yourself in the gripping narrative and stunning visuals, as the characters navigate a labyrinth of suspense and emotion. Let the movie's artistry and storytelling transport you to a world where every frame is a captivating piece of cinema.</p> </p>
+                    </div>
+                </div>
+            </div>
+            <hr class="bg-light">
+            <div class="row " >
+                <div class=" col-lg-4  mt-3">
+                    <div class="card-header  bg-dark ">
+                        <h1 class="text-success">Gold</h1>
+                        <h1 class="text-success">₹600</h1>
+                    </div>
+                    <div class="card-body bg-danger">
+                        <h1 class="text-dark">
+                            Benifits:-
+                        </h1>
+                        <h4 >valid for 60 days</h2>
+                        <h4>no adds</h2>
+                        <h4>30 movies per day</h2>
+                    </div>
+                    <div class="card-footer bg-warning">
+                        <button class="bg-dark btn btn-group-lg">Buy now</button>
+                    </div>
+                </div>
+                <div class=" col-lg-4   mt-3">
+                    <div class="card-header  bg-dark ">
+                        <h1 class="text-success">silver</h1>
+                        <h1 class="text-success">₹900</h1>
+                    </div>
+                    <div class="card-body bg-danger">
+                        <h1 class="text-dark">
+                            Benifits:-
+                        </h1>
+                        <h4 >valid for 90 days</h2>
+                        <h4>no adds</h2>
+                        <h4>50 movies per day</h2>
+                    </div>
+                    <div class="card-footer bg-warning">
+                        <button class="bg-dark btn btn-group-lg">Buy now</button>
+                    </div>
+                </div>
+                <div class=" col-lg-4  mt-3">
+                    <div class="card-header  bg-dark ">
+                        <h1 class="text-success">platinum</h1>
+                        <h1 class="text-success">₹1300</h1>
+                    </div>
+                    <div class="card-body bg-danger">
+                        <h1 class="text-dark">
+                            Benifits:-
+                        </h1>
+                        <h4 >valid for 130 days</h2>
+                        <h4>no adds</h2>
+                        <h4>100 movies per day</h2>
+                    </div>
+                    <div class="card-footer bg-warning">
+                        <button class="bg-dark btn btn-group-lg">Buy now</button>
+                    </div>
+                </div>
+                
+                </div>
+            </div>       
+    </div>
+   <footer class="bg-dark ">
+    <p class="text-light">In a dystopian future, where technology reigns supreme, a reluctant hero embarks on a quest to uncover a hidden truth. As ancient prophecies unfold, the line between good and evil blurs in a world where alliances shift like shadows. Spectacular visuals and intense action paint a vivid canvas, while a haunting score underscores the emotional journey. Brace yourself for a cinematic experience that transcends reality.</p>
+   </footer>
+  
+</body>
+</body>
+</html>
